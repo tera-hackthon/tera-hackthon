@@ -35,6 +35,7 @@ column_names = {
     'Acc_number': 'AccidentID',
     'Num_Veh': 'NumberOfVehicles',
     'place': 'Place',
+    'trajet': 'Trip',
     'catu': 'UserCategory',
     'grav': 'Severity',
     'an_nais': 'UserYoB',
