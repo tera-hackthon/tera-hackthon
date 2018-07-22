@@ -13,3 +13,7 @@ def parall_df(df, func):
     pool.close()
     pool.join()
     return df
+
+def dummies(df, column):
+    dummy = pd.get_dummies(df[column], prefix=column)
+    return pd.concat([df, dummy], axis=1)
